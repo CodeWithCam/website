@@ -1,0 +1,32 @@
+html,
+body {
+  background-image: url(/assets/images/background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+  overflow: hidden;
+}
+
+* {
+    font-family: 'Inter', Helvetica, sans-serif;
+    color: #333447;
+    line-height: 1.5;
+  }
+
+  .button-cwc {
+    transition-duration: 0.4s;
+    border-color: #7241FA;
+    color: #7241FA;
+  }
+
+  .button-cwc:hover {
+    background-color: #7241FA; /* Green */
+    color: white;
+  }
